@@ -93,7 +93,7 @@
      '(neo-dir-link-face ((t (:slant italic :family "Operator Mono" :height 120))))
      '(neo-file-link-face ((t (:height 120)))))))
 
-(defun cs-spacemacs/init-prettier-js ()
+(defun cs-spacemacs/post-init-prettier-js ()
   (use-package prettier-js
     :ensure t
     :config
